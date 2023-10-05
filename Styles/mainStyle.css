@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+/* * {
+  outline: 2px solid gold;
+}
+ */
+section {
+  margin-bottom: 50px;
+}
+
+.min-width-space {
+  margin-right: auto;
+}
+
+nav {
+  background: #fff;
+}
+
+.font-nav ul li a {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+}
+
+.carousel-item {
+  height: auto;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.text-on-BG {
+  position: absolute;
+  top: 161px;
+  left: 99px;
+  z-index: 2;
+}
+
+@media (width < 768px) {
+  .text-on-BG {
+    top: 46px;
+    left: 35px;
+  }
+}
+.box-link {
+  overflow-wrap: break-word;
+}
+@media (width < 489px) {
+  .first-title-tag {
+    font-size: 30px !important;
+  }
+  .box-sub-link {
+    font-size: 10px !important;
+
+    overflow-wrap: break-word;
+  }
+}
+
+@media (width < 342px) {
+  .text-on-BG {
+    top: 5px;
+    left: 20px;
+  }
+
+  .first-title-tag {
+    font-size: 25px !important;
+  }
+  .box-sub-link {
+    font-size: 10px !important;
+
+    overflow-wrap: break-word;
+  }
+}
+
+.card {
+  background: none;
+  border: none;
+}
+
+.card-title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  text-transform: uppercase;
+}
+
+.card-subtitle {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.section2 h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+  text-transform: uppercase;
+}
+
+.card-secondpart {
+  border-radius: 20px 20px 20px 20px !important;
+  background-color: #f6f6f6;
+}
+
+.card {
+  border-radius: 20px 20px 20px 20px;
+  background: #f6f6f6;
+}
+.card img {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card-body-target .header {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+  text-transform: uppercase;
+}
+
+.card-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 41px;
+  /* font-size: 0; */
+  list-style: none;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-wrapper .image-list .image-item {
+  width: 200px;
+  /* height: 400px; */
+  object-fit: cover;
+}
+
+.card-header-font {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 140% */
+}
+
+/* Styles for mobile and tablets */
+@media only screen and (max-width: 1023px) {
+  .slider-wrapper .image-list {
+    gap: 10px;
+    margin-bottom: 15px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .slider-wrapper .image-list .image-item {
+    width: 280px;
+    height: 380px;
+  }
+
+  .slider-scrollbar .scrollbar-thumb {
+    width: 20%;
+  }
+}
+
+.header-Section3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+}
+
+/* card */
+.card-rev {
+  width: 400px;
+  height: 384px;
+
+  border-radius: 20px;
+  background: #f6f6f6;
+}
+
+.card-head-name {
+  margin-top: 20px;
+}
+
+.section6,
+.section8 {
+  background: #f6f6f6;
+}
+
+.section7 {
+  margin-top: -50px;
+  background: #2785e2;
+}
+
+.fontfooter {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.section8 {
+  margin-top: -49px;
+  margin-bottom: -50px;
+}
+
+.carousel-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 100% */
+  text-transform: uppercase;
+}
+.carousel-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
